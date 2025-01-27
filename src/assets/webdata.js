@@ -1,7 +1,7 @@
 const webdata = {
     header: {
-        "name": "My name",
-        "description": "This is a description"
+        "name": "John Doe",
+        "description": "Software Developer"
     }
 }
 

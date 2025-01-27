@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
 function Header(props) {
     console.log(props)
