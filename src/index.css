@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #cdd7d6;
-  --secondary-color: #102542;
+  --primary-color: #e0e0e0;
+  --secondary-color: #222;
+  /* --secondary-color: #102542; */
   /* --secondary-color: #474747; */
-  --third-color: #f2af29;
+  /* --third-color: #f2af29; */
+  --third-color: #b0413e;
   --fourth-color: #20a39e;
   --fifth-color: #ef5b5b;
 
@@ -13,4 +15,6 @@ body {
   margin: 0px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  /* background-color: var(--secondary-color);
+  color: var(--primary-color); */
 }
