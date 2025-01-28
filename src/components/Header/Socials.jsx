@@ -1,5 +1,5 @@
 import './Socials.css'
-import githubLogo from '/src/assets/github-mark.svg'
+import githubLogo from '/src/assets/github.svg'
 import linkedinLogo from '/src/assets/linkedin.svg'
 import emailLogo from '/src/assets/email.svg'
 import leetcodeLogo from '/src/assets/leetcode.svg'
