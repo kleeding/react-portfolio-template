@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,13 +17,6 @@ header {
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--third-color);
-}
-
-.socials-container {
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 @media (max-width: 768px) {

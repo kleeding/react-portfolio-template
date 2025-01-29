@@ -1,16 +1,15 @@
 import './Socials.css'
-import githubLogo from '/src/assets/github.svg'
-import linkedinLogo from '/src/assets/linkedin.svg'
-import emailLogo from '/src/assets/email.svg'
-import leetcodeLogo from '/src/assets/leetcode.svg'
-import twitterLogo from '/src/assets/twitter.svg'
-
+import githubLogo from '/src/assets/icons/github.svg'
+import linkedinLogo from '/src/assets/icons/linkedin.svg'
+import emailLogo from '/src/assets/icons/email.svg'
+import leetcodeLogo from '/src/assets/icons/leetcode.svg'
+import twitterLogo from '/src/assets/icons/twitter.svg'
 
 function Socials(props) {
 
     let soclogo = ""
 
-    switch(props.name) {
+    switch(props.entry.name) {
         case "github":
             soclogo = githubLogo
             break;
@@ -31,7 +30,7 @@ function Socials(props) {
     }
 
     return (
-        <a href={props.url} target="_blank"><img className="socials-logo" src={soclogo} alt={props.alt}/></a>
+        <a href={props.entry.url} target="_blank"><img className="socials-logo" src={soclogo} alt={props.entry.alt}/></a>
         
     )
 }

@@ -3,34 +3,21 @@ import './Header.css'
 import Socials from './Socials'
 
 function Header(props) {
-    console.log(props)
-
     const socialElements = props.socials.map((entry) => {
-        console.log(entry)
         return (
-            <Socials {...entry} />
+            <Socials key={entry.id} entry={entry} />
         )
     })
 
     return (
-        <header>
+        <header id="header">
             <h1 className="name">{props.name}</h1>
             <h3 className="title">{props.description}</h3>
-            <div className="socials-container">
+            <span className="socials-container">
                 {socialElements}
-            </div>
+            </span>
         </header>
     )
 }
-
-// class Header extends Component {      
-//     render() {
-//         return (
-//             <header>
-//                 <h1>First React Page</h1>
-//             </header>
-//         )
-//     }
-// }
 
 export default Header
