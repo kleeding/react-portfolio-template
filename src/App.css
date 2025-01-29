@@ -1,0 +1,10 @@
+.page-top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+sections.title {
+  background-color: aqua;
+  margin: 40px 0 20px 0;
+}

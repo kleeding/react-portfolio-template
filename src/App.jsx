@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Header from './components/Header/Header'
+// import About from './components/About/About'
+// import Experience from './components/Experience/Experience'
 import './App.css'
 import data from './assets/portfolio_data'
 
@@ -9,9 +11,9 @@ function App() {
     <>
       <section className="page-top">
         <Navbar {...data.navbar} />
-      <Header {...data.header} />
-      {/* <Header name="First React Page"/>
-      <Header name="cool stuff"/> */}
+        <Header {...data.header} />
+      </section>
+      {/* <About {...data.about} /> */}
     </>
   )
 }
