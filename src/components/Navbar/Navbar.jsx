@@ -23,9 +23,9 @@ function Navbar(props) {
     return (
         <nav className='nav-elements'>
             <li className="nav-logo">
-                <div className='tmp-logo'>
+                {/* <div className='tmp-logo'>
                     <a  href='#header'>LOGO</a>
-                </div>
+                </div> */}
             </li>
 
             <div className='nav-links'>
