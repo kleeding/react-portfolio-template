@@ -23,10 +23,12 @@ function Navbar(props) {
     return (
         <nav className='nav-elements'>
             <li className="nav-logo">
-                {/* <div className='tmp-logo'>
-                    <a  href='#header'>LOGO</a>
-                </div> */}
+                <div className='tmp-logo'>
+                    <a className="home-link" href='#top'>HOME</a>
+                </div>
             </li>
+            
+            <div className={`empty-nav-space  ${isOpen ? "is-open" : ""}`} onClick={toggleMenu}></div>
 
             <div className='nav-links'>
                 <div className={`nav-mobile-trigger-open  ${isOpen ? "is-open" : ""}`} onClick={toggleMenu}>
@@ -39,6 +41,7 @@ function Navbar(props) {
                     <div className='nav-cross-1'></div>
                     <div className='nav-cross-2'></div>
                 </div>
+
 
                 <ul className={`links-container ${isOpen ? "is-open" : ""}`}>
                     {navbarElements}
