@@ -9,12 +9,12 @@ const webdata = {
             {
                 id: 2,
                 name: "SKILLS",
-                url: ""
+                url: "#skills"
             },
             {
                 id: 3,
                 name: "PROJECTS",
-                url: ""
+                url: "#projects"
             },
             {
                 id: 4,
@@ -24,7 +24,7 @@ const webdata = {
             {
                 id: 5,
                 name: "CONTACT",
-                url: ""
+                url: "#contact"
             }
         ]
     },
@@ -65,7 +65,47 @@ const webdata = {
         ]
     },
     about: {
-        title: "ABOUT ME"
+        title: "ABOUT ME",
+        discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sem urna, facilisis non rhoncus a, dictum at nisl. Quisque vel enim libero. Vestibulum tempus sed massa molestie eleifend. Nulla vestibulum maximus laoreet. Sed aliquet eleifend sem, nec congue risus scelerisque lobortis. Sed ut accumsan nisl, sit amet volutpat augue. Aenean tempus sagittis felis dictum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    skills: {
+
+    },
+    projects: {
+
+    },
+    experience: [
+            {
+                id: 1,
+                title: "Full Stack Developer",
+                location: "Boogle",
+                description: "",
+                date: "2021-2024"
+            },
+            {
+                id: 2,
+                title: "Software Developer",
+                location: "Boogle",
+                description: "",
+                date: "2019-2021"
+            },
+            {
+                id: 3,
+                title: "Junior Software Developer",
+                location: "Nicrohard",
+                description: "",
+                date: "2018-2019"
+            },
+            {
+                id: 4,
+                title: "University of Example",
+                location: "BSc (Hons) Computer Science",
+                description: "",
+                date: "2013-2018"
+            },
+        ],
+    contact: {
+
     }
 }
 
