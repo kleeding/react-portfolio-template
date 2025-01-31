@@ -1,6 +1,11 @@
 .contact-info {
   display: flex;
   gap: 1em;
-  flex-direction: row;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+  }
 }
