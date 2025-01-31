@@ -9,11 +9,13 @@
   --fifth-color: #ef5b5b;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background-color: var(--fourth-color);
 }
 
 body {
   margin: 0px;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
   color: var(--secondary-color);
   /* background-color: var(--secondary-color);
   color: var(--primary-color); */

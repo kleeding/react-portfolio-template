@@ -1,0 +1,56 @@
+.experience-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  /* max-width: 900px; */
+  align-items: center;
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--fourth-color);
+  width: 500px;
+  /* min-height: 100px; */
+  /* box-shadow: 5px 5px 5px; */
+}
+
+.experience-image {
+  background-color: var(--secondary-color);
+  width: 100px;
+}
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-title {
+  margin: 1rem 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.experience-location {
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+
+.experience-date {
+  margin: 1rem 0 1rem 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.experience-description {
+  margin: 1rem 0 0 1rem;
+  font-size: 0.9rem;
+}
+
+.experience-linking {
+  background-color: aquamarine;
+  width: 100px;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

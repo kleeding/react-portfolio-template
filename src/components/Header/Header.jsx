@@ -1,6 +1,6 @@
 // import React, { Component } from 'react'
 import './Header.css'
-import Socials from './Socials'
+import Socials from '../Socials/Socials'
 
 function Header(props) {
     const socialElements = props.socials.map((entry) => {
@@ -10,7 +10,7 @@ function Header(props) {
     })
 
     return (
-        <header id="header">
+        <header id="top">
             <h1 className="name">{props.name}</h1>
             <h3 className="title">{props.description}</h3>
             <span className="socials-container">
